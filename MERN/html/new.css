@@ -1,0 +1,9 @@
+h1{ color: rgb(99, 143, 11);
+background-color: rgb(129, 183, 226);}
+h2{color: teal;
+background-color: thistle;}
+h3{color: slategrey;
+background-color: aliceblue;}
+*{
+    background-color:rgb(209, 209, 248);
+ }

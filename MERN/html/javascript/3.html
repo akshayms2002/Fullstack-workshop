@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="hclass" id="hid"></h1>
+    <button onclick="SIGNIN()" ondblclick="reset()">sign in</button>
+    <h2 class ="hclass">javascript</h2>
+    <h2 class="hclass">hiii</h2>
+    <script>
+        function SIGNIN(){
+            let f = document.querySelectorAll(".hclass")
+            for(let i=0;i<f.length;i++){
+                f[i].style.color="green"
+            }
+            let id = document.querySelector("hid")
+            id.innerHTML="hellooo"
+        }
+        function reset(){
+            let f = document.querySelectorAll(".hclass")
+            for(let i=0;i<f.length;i++){
+                f[i].style.color="red"
+            }
+            let id = document.querySelector("hid")
+            id.innerHTML="hiii"
+                }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+

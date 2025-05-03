@@ -1,0 +1,17 @@
+
+
+.navbar{
+    padding: 10px;
+    background-color: aqua;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li{
+    margin: 30px;
+}
